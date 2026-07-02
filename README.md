@@ -2,9 +2,6 @@
 
 公开分发仓库：提供二进制发布资产、安装脚本和运维文档。
 
-# 项目源码
-https://github.com/iniwex5/vohive
-
 ## 免责声明
 
 > [!WARNING]
