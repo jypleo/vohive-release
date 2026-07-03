@@ -74,7 +74,7 @@ echo 'AT+QCFG="usbnet",0;+CFUN=1,1' | sudo socat - /dev/ttyUSB2,crnl
 Linux / OpenWrt：
 
 ```sh
-wget -O - https://raw.githubusercontent.com/iniwex5/vohive-release/master/install.sh | sh
+wget -O - https://raw.githubusercontent.com/overlook940/vohive-release/master/install.sh | sh
 ```
 
 说明：旧的 `curl -fsSL ... | bash` 方式仍然兼容。
@@ -82,19 +82,19 @@ wget -O - https://raw.githubusercontent.com/iniwex5/vohive-release/master/instal
 指定版本：
 
 ```sh
-wget -O - https://raw.githubusercontent.com/iniwex5/vohive-release/master/install.sh | sh -s -- --version v1.5.3
+wget -O - https://raw.githubusercontent.com/overlook940/vohive-release/master/install.sh | sh -s -- --version v1.5.3
 ```
 
 仅安装二进制（跳过自动服务注册，兼容旧参数名 `--no-systemd`）：
 
 ```sh
-wget -O - https://raw.githubusercontent.com/iniwex5/vohive-release/master/install.sh | sh -s -- --no-systemd
+wget -O - https://raw.githubusercontent.com/overlook940/vohive-release/master/install.sh | sh -s -- --no-systemd
 ```
 
 卸载：
 
 ```sh
-wget -O - https://raw.githubusercontent.com/iniwex5/vohive-release/master/uninstall.sh | sh
+wget -O - https://raw.githubusercontent.com/overlook940/vohive-release/master/uninstall.sh | sh
 ```
 
 
@@ -196,10 +196,3 @@ http://你的服务器IP:7575
 
 ![image](https://cdn.nodeimage.com/i/X5Ps5w9AHo1Qas6DDsnxYnbrfYcVhAfV.png)
 
-### 发布频道：
-
-https://t.me/vohive_channel
-
-### 交流群：
-
-https://t.me/vohive
